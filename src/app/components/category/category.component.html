@@ -1,0 +1,42 @@
+<section class="category h-100">
+  <div class="gx-0">
+    <div class="row-cols-1 h-100 w-100">
+      <h1 class="mainFont text-center mb-5 pb-3 mt-5">منتجاتنا</h1>
+        <owl-carousel-o [options]="customOptions">
+          <ng-container *ngFor="let category of categories">
+            <ng-template carouselSlide >
+              <a [routerLink]="['/product',category.nameCategory]">
+                <div class="image cursor-pointer">
+                  <img height="400" [src]="category.ImageSrc">
+                  <div class="layer d-flex justify-content-center align-items-center">
+                    <h3 class=" font-lg text-light">{{category.nameCategory}}</h3>
+                  </div>
+                </div>
+              </a>
+            </ng-template>
+          </ng-container>
+          </owl-carousel-o>
+    </div>
+  </div>
+</section>
+
+<section class="someProdcut">
+  <h1 class="mainFont text-center mb-5 pb-3 mt-5">بعض من منتجاتنا</h1>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+
+    <div *ngFor="let product of products" class="col-md-3">
+      <div class="card h-100 product px-2 py-4 cursor-pointer">
+        <a [routerLink]="['/productdetails',product.name]">
+          <img src={{product.image}} class="card-img-top" alt="...">
+        <div class="card-body " >
+          <h2 class="card-title text-main fw-bold" dir="rtl">{{product.name }}</h2>
+          <div class="d-flex align-items-center justify-content-between">
+            <span class="text-main font-md fw-bold ">{{product.concentration}} %</span>
+            <span class="text-main fw-bold font-md">{{product.categoryName}}</span>
+        </div>
+        </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

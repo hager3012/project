@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@900&family=Noto+Sans+Arabic:wght@800&family=Playfair+Display:ital,wght@1,900&family=Roboto+Slab:wght@800&display=swap');
+.text p{
+  font-family: 'Noto Kufi Arabic', sans-serif;
+}
+.buttons a{
+
+  display: block;
+  width: 200px;
+  height: 50px;
+  line-height: 40px;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  position: relative;
+
+  transition: all .35s;
+}
+
+.buttons a span{
+  position: relative;
+  z-index: 2;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  font-weight: bolder;
+}
+
+.buttons a:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #558630;
+  transition: all .35s;
+}
+
+.buttons a:hover{
+  color: #fff;
+}
+
+.buttons a:hover:after{
+  width: 100%;
+}
+/* mobile sm 320 */
+@media screen and (max-width:374px){
+  .mainImage{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .mainImage img{
+    filter: blur(2.5px);
+  }
+  .mainImage img{
+    height: 400px;
+  }
+  .image{
+    width: 50%;
+    position: absolute;
+    top: 0px;
+    left: 25%;
+  }
+
+  .image img{
+    width: 100%;
+
+  }
+  .text .fontHeader{
+    font-size: 2rem;
+    margin-left: 1.5rem;
+  }
+  .text .fontSecond{
+    font-size: 0.7rem;
+  }
+  .buttons {
+    width: 90% !important;
+  }
+  .buttons a{
+    font-size: 1rem !important;
+    margin-left: 1rem;
+    padding: 0px;
+  }
+}
+
+/* mobile md 375 */
+@media screen and (min-width:375px) and (max-width:424px){
+  .mainImage{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .mainImage img{
+    filter: blur(2.5px);
+  }
+  .mainImage img{
+    height: 500px;
+  }
+  .image{
+    width: 50%;
+    position: absolute;
+    top: 0px;
+    left: 25%;
+  }
+  .image img{
+    width: 100%;
+
+  }
+  .text .fontHeader{
+    font-size: 2rem;
+    margin-left: 1.5rem;
+  }
+  .text .fontSecond{
+    font-size: 0.7rem;
+  }
+  .buttons {
+    width: 85% !important;
+  }
+  .buttons a{
+    font-size: 0.9rem !important;
+    margin-left: 1rem;
+  }
+}
+
+/* mobile lg 425 */
+@media screen and (min-width:425px) and (max-width:767px){
+  .mainImage{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .mainImage img{
+    filter: blur(2.5px);
+  }
+  .image{
+    width: 40%;
+    position: absolute;
+    top: 0px;
+    left: 30%;
+  }
+  .image img{
+    width: 100%;
+
+  }
+  .text .fontHeader{
+    font-size: 3rem;
+    margin-left: 5rem;
+  }
+  .text .fontSecond{
+    font-size: 1.2rem;
+  }
+  .buttons {
+    width: 100% !important;
+  }
+}
+
+/* tablet 768 */
+@media screen and (min-width:768px) and (max-width:1023px){
+  .mainImage{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .mainImage img{
+    filter: blur(2.5px);
+  }
+  .image{
+    width: 30%;
+    position: absolute;
+    top: -3px;
+    left: 35%;
+  }
+  .image img{
+    width: 100%;
+
+  }
+  .text .fontHeader{
+    font-size: 5rem;
+    margin-left: 5rem;
+  }
+}
+
+/* Laptop 1024 */
+@media screen and (min-width:1024px) and (max-width:1439px){
+  .mainImage{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .mainImage img{
+    filter: blur(2.5px);
+  }
+  .image{
+    width: 30%;
+    position: absolute;
+    top: -50px;
+    left: 35%;
+  }
+  .image img{
+    width: 100%;
+
+  }
+  .text .fontHeader{
+    font-size: 5rem;
+    margin-left: 5rem;
+  }
+}
+
+/* Laptop L 1440 */
+@media screen and (min-width:1440px) and (max-width:2559px){
+  .mainImage{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .mainImage img{
+    filter: blur(2.5px);
+  }
+  .image{
+    width: 30%;
+    position: absolute;
+    top: -100px;
+    left: 35%;
+    z-index: 2;
+  }
+
+  .image img{
+    width: 100%;
+
+  }
+
+  .text .fontHeader{
+    font-size: 5rem;
+    margin-left: 5rem;
+  }
+}
+.box
+{
+position: absolute;
+top: 50%;
+left: 50%;
+width: 100%;
+height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  transform: translate(-50%,-50%);
+}
+.box .text{
+  position: relative;
+  top: 10%;
+}
+
+

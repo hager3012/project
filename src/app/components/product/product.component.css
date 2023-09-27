@@ -1,0 +1,19 @@
+.header{
+  position: relative;
+}
+.layer
+{
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(35, 34, 34, 0.463);
+  z-index: 2;
+  color: white;
+}
+.main{
+  position: absolute;
+  z-index: 10;
+  font-size: 5vw;
+}

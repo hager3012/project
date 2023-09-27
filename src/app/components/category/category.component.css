@@ -1,0 +1,37 @@
+.category{
+  position: relative;
+
+
+}
+.image
+{
+  position: relative;
+  border: 4px white solid;
+}
+.image .layer{
+  height: 20%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(35, 34, 34, 0.463);
+  z-index: 2;
+  color: white;
+  transition: 0.5s;
+}
+.image:hover .layer{
+  height: 100%;
+}
+/* mobile sm 320 */
+@media screen and (max-width:374px){
+  .category{
+    margin-top: 10rem;
+  }
+}
+
+/* mobile md 375 */
+@media screen and (min-width:375px) and (max-width:424px){
+  .category{
+    margin-top: 3rem;
+  }
+}

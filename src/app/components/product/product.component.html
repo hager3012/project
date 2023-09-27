@@ -1,0 +1,28 @@
+<section class="Prodcut">
+  <div class="header w-100 mb-5 d-flex justify-content-center align-items-center">
+    <div class="iamge w-100">
+      <img src="../../../assets/images/products.jpg" alt="" class="w-100">
+      <div class="layer"></div>
+    </div>
+    <div class="main">
+      <div class="text mainFont text-light">{{productName}}</div>
+    </div>
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+
+    <div *ngFor="let product of products" class="col-md-3">
+      <div class="card h-100 product px-2 py-4 cursor-pointer">
+        <a [routerLink]="['/productdetails',product.name]">
+          <img src={{product.image}} class="card-img-top" alt="...">
+        <div class="card-body " >
+          <h2 class="card-title text-main fw-bold" dir="rtl">{{product.name }}</h2>
+          <div class="d-flex align-items-center justify-content-between">
+            <span class="text-main font-md fw-bold ">{{product.concentration}} %</span>
+            <span class="text-main fw-bold font-md">{{product.categoryName}}</span>
+        </div>
+        </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

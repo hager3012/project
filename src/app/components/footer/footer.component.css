@@ -1,0 +1,11 @@
+.image{
+  width: 10vh;
+  height: 10vh;
+  position: fixed;
+  bottom: 5%;
+  right: 3%;
+  background-image: url("../../../assets/images/003-whatsapp.png");
+  z-index: 100;
+  background-size: cover;
+
+}

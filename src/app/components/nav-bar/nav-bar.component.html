@@ -1,0 +1,56 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <div class="image">
+      <img src="assets/images/��لوجو ابيكو2�.png" >
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2  mb-lg-0 offset-lg-4 text-right" dir="rtl">
+        <li  class="nav-item mx-3 list">
+          <i class="fa-solid fa-house ms-2 foont-sm  icon"></i>
+          <a class="nav-link  text-dark shope font-lg d-inline-block " routerLink="home">الرئيسية</a>
+
+        </li>
+        <span class="border-start"></span>
+          <li  class="nav-item mx-3 list">
+            <i class="fa-solid fa-building foont-sm  icon"></i>
+            <a class="nav-link text-dark shope font-lg d-inline-block cursor-pointer" (click)="onClick('about')"> عن الشركة</a>
+          </li>
+
+
+        <span class="border-start"></span>
+        <li class="nav-item dropdown mx-3 list">
+          <i class="fa-solid fa-rectangle-list foont-sm  icon"></i>
+          <a class="nav-link text-dark shope font-lg d-inline-block "  role="button" data-bs-toggle="dropdown" aria-expanded="false"> منتجاتنا</a>
+          <i class="fa-solid fa-caret-down icon" ></i>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle font-md cursor-pointer" >مواد خام</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item  font-md" [routerLink]="['/product/مبيدات حشرية خام']">مبيدات حشرية خام</a></li>
+            <li><a class="dropdown-item font-md" [routerLink]="['/product/مبيدات فطرية خام']">مبيدات فطرية خام</a></li>
+            <li><a class="dropdown-item font-md" [routerLink]="['/product/منظمات نمو خام']">منظمات نمو خام</a></li>
+
+              </ul>
+            </li>
+            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle cursor-pointer" >منتج نهائي</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item  font-md" [routerLink]="['/product/منتج نهائي مبيدات حشرية']">منتج نهائي مبيدات حشرية</a></li>
+            <li><a class="dropdown-item font-md" [routerLink]="['/product/منتج نهائي مبيدات  فطرية']">منتج نهائي مبيدات  فطرية</a></li>
+            <li><a class="dropdown-item font-md" [routerLink]="['/product/منتج نهائي منظمات نمو']">منتج نهائي منظمات نمو</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <span class="border-start"></span>
+        <li  class="nav-item mx-3 list">
+          <a class="nav-link text-dark shope font-lg d-inline-block cursor-pointer"   (click)="onClick('Contact')">اتصل بنا</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav me-5 mb-2 mb-lg-0 text-right" dir="rtl">
+      </ul>
+    </div>
+  </div>
+</nav>
+
