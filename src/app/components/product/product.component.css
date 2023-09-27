@@ -2,6 +2,9 @@
 .image{
   position: relative;
 }
+/* .image img{
+  width: 100%;
+} */
 .layer
 {
   height: 100%;
