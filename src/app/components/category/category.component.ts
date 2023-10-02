@@ -22,7 +22,7 @@ export class CategoryComponent {
           items: 1
         },
         400: {
-          items: 2
+          items: 1
         },
         740: {
           items: 3
@@ -38,7 +38,7 @@ export class CategoryComponent {
     {ImageSrc:"assets/images/WhatsApp Image 1.jpeg",nameCategory:"مبيدات حشرية خام "},
     {ImageSrc:"assets/images/منظمات نمو 1.jfif",nameCategory:"منظمات نمو خام"},
     {ImageSrc:"assets/images/مبيدات فطرية 2.jfif",nameCategory:"مبيدات فطرية منتج نهائي"},
-    {ImageSrc:"assets/images/WhatsApp Image2.jpeg",nameCategory:"مبيدات حشرية منتج نهائي"},
+    {ImageSrc:"assets/images/WhatsApp Image2.jpeg",nameCategory:" مبيدات حشرية منتج نهائي" },
     {ImageSrc:"assets/images/منطمات نمو 2.jfif",nameCategory:"منظمات نمو منتج نهائي"},
 
   ];
