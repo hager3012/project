@@ -122,3 +122,122 @@ height: 100%;
     margin-right: 10px !important;
   }
 }
+
+/* 481px — 768px: iPads, Tablets */
+@media (min-width: 481px) and (max-width: 768px){
+  .text .fontHeader{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .horizontal-line {
+    border-bottom: 3px solid white;
+  }
+  .mainImage img{
+    height: 300px;
+  }
+  .text-box-Second{
+    bottom: 6%;
+    width: 40% !important;
+    line-height: 0.7rem;
+  }
+  .fontSecond{
+    font-size: 0.8rem !important;
+  }
+  .list{
+    right: 1%;
+    font-size: 1.2rem;
+  }
+  .horizontal-line2 {
+      width: 75%;
+      bottom: 0%;
+  }
+  .list2{
+    top: 2%;
+    right: -12%;
+    font-size: 0.9rem;
+
+  }
+  .list2 li{
+    margin-right: 10px !important;
+  }
+}
+/* 769px — 1024px: Small screens, laptops */
+@media (min-width: 768px) and (max-width: 1024px){
+  .text .fontHeader{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .horizontal-line {
+    border-bottom: 4px solid white;
+  }
+  .mainImage img{
+    height: 400px;
+  }
+  .text-box-Second{
+    bottom: 8%;
+    width: 40% !important;
+    line-height: 1rem;
+  }
+  .fontSecond{
+    font-size: 1.2rem !important;
+  }
+  .list{
+    right: 3%;
+    font-size: 1.5rem;
+  }
+  .horizontal-line2 {
+      width: 75%;
+      bottom: 0%;
+  }
+  .list2{
+    top: 2%;
+    right: -12%;
+    font-size: 1.2rem;
+
+  }
+  .list2 li{
+    margin-right: 10px !important;
+  }
+}
+
+/* 1025px — 1200px: Desktops, large screens */
+@media (min-width: 1025px) and (max-width: 1300px){
+  .text .fontHeader{
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  .horizontal-line {
+    border-bottom: 4px solid white;
+  }
+  .mainImage img{
+    height: 400px;
+  }
+  .text-box-Second{
+    bottom: 10%;
+    width: 40% !important;
+    line-height: 1rem;
+  }
+  .fontSecond{
+    font-size: 1.2rem !important;
+  }
+  .list{
+    right: 3%;
+    font-size: 1.5rem;
+  }
+  .horizontal-line2 {
+      width: 75%;
+      bottom: 0%;
+  }
+  .list2{
+    top: 2%;
+    right: -9%;
+    font-size: 1.5rem;
+
+  }
+  .list2 li{
+    margin-right: 15px !important;
+  }
+}
