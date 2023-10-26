@@ -4,7 +4,6 @@
 }
 .image img{
   width: 100%;
-
 }
 .mainImage{
   position: relative;
@@ -83,4 +82,43 @@ height: 100%;
   right: 4%;
   z-index: 10;
   font-size: 2rem;
+}
+/* 320px — 480px: Mobile devices */
+@media (min-width: 320px) and (max-width: 480px){
+  .text .fontHeader{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .horizontal-line {
+    border-bottom: 2px solid white;
+  }
+  .mainImage img{
+    height: 300px;
+  }
+  .text-box-Second{
+    bottom: 5%;
+    width: 40% !important;
+    line-height: 0.7rem;
+  }
+  .fontSecond{
+    font-size: 0.6rem !important;
+  }
+  .list{
+    right: 0%;
+    font-size: 1rem;
+  }
+  .horizontal-line2 {
+      width: 75%;
+      bottom: 0%;
+  }
+  .list2{
+    top: 0%;
+    right: -20%;
+    font-size: 0.7rem;
+
+  }
+  .list2 li{
+    margin-right: 10px !important;
+  }
 }
