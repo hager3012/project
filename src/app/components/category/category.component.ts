@@ -107,7 +107,7 @@ export class CategoryComponent {
       "counter":"متوفر عبوات : برميل 200 لتر- عبوات 5 لتر - عبوات 1 لتر - عبوات 500 ملي"
     },
     {
-      "image":"assets/images/Cytokinin.jpeg",
+      "image":"assets/images/Cytokinin (2).jpeg",
       "name":"سيتوكينين - Cytokinin 4%",
       "concentration":"12.5",
       "categoryName":"منظمات نمو منتج نهائي",
