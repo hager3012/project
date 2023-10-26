@@ -6,6 +6,87 @@
   width: 100%;
 
 }
+.mainImage{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image{
+  width: 30%;
+  position: absolute;
+  top: -100px;
+  left: 35%;
+  z-index: 2;
+}
+
+.image img{
+  width: 100%;
+
+}
+
+.text .fontHeader{
+  font-size: 5.5rem;
+  /* margin-left: 5rem; */
+  font-weight: 600;
+  margin-bottom: 0;
+
+}
+.horizontal-line {
+  border-bottom: 10px solid white;
+  width: 80%;
+  margin: auto;
+}
+.text .fontSecond{
+  position: absolute;
+  bottom: 12%;
+  left: -50%;
+}
+.mainImage2{
+  position: relative;
+  left: 50%;
+  bottom: -20%;
+  }
+  .horizontal-line2 {
+    position: relative;
+    border-bottom: 5px solid white;
+    width: 80%;
+    left: -10%;
+  bottom: 8%;
+}
+.list2{
+  position: absolute;
+  top: 0%;
+  right: -10%;
+  font-size: 2.5rem;
+
+}
+.list2 li{
+  margin-right: 20px !important;
+}
+.box
+{
+position: absolute;
+top: 50%;
+left: 50%;
+width: 100%;
+height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  transform: translate(-50%,-50%);
+}
+.box .text{
+  position: relative;
+  top: 10%;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: -53%;
+  z-index: 10;
+  font-size: 2rem;
+}
 /* mobile sm 320 */
 @media screen and (max-width:374px){
   .mainImage{
@@ -74,7 +155,7 @@
   margin-right: 10px !important;
 }
 }
-@media screen and (min-width:360px) and (max-width:374px){
+/* @media screen and (min-width:360px) and (max-width:374px){
   .mainImage{
     position: relative;
     top: 0;
@@ -209,7 +290,7 @@
 }
 }
 /* mobile md 375 */
-@media screen and (min-width:400px) and (max-width:424px){
+/*@media screen and (min-width:400px) and (max-width:424px){
   .mainImage{
     position: relative;
     top: 0;
@@ -278,7 +359,7 @@
 }
 }
 /* mobile lg 425 */
-@media screen and (min-width:425px) and (max-width:767px){
+/*@media screen and (min-width:425px) and (max-width:767px){
   .mainImage{
     position: relative;
     top: 0;
@@ -345,66 +426,12 @@
   .list2 li{
     margin-right: 10px !important;
   }
-}
-@media screen and (min-width:768px) and (max-width:800px){
-  .mainImage{
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-  .image{
-    width: 30%;
-    position: absolute;
-    top: -3px;
-    left: 35%;
-  }
-  .text .fontHeader{
-    font-size: 2rem;
-    /* margin-left: 5rem; */
-    font-weight: 800;
-    margin-bottom: 0;
+} */
+/* @media screen and (min-width:768px) and (max-width:800px){
 
-  }
-  .horizontal-line {
-    border-bottom: 8px solid white;
-    width: 80%;
-    margin: auto;
-  }
-  .text .fontSecond{
-    position: absolute;
-    font-size: 0.8rem !important;
-    bottom: 12%;
-    left: -70%;
-  }
-  .list{
-    font-size: 1.2rem;
-    right: -70% !important;
-  }
-  .mainImage2{
-    position: relative;
-    left: 50%;
-    bottom: -30%;
-    }
-    .horizontal-line2 {
-      position: relative;
-      border-bottom: 5px solid white;
-      width: 70%;
-      left: -10%;
-      bottom: 4%;
-  }
-  .list2{
-    position: absolute;
-    top: 0%;
-    right: -15%;
-    font-size: 1.5rem;
-
-  }
-  .list2 li{
-    margin-right: 20px !important;
-  }
-}
+} */
 /* tablet 769 */
-@media screen and (min-width:801px) and (max-width:880px){
+/* @media screen and (min-width:801px) and (max-width:880px){
   .mainImage{
     position: relative;
     top: 0;
@@ -463,9 +490,146 @@
   .list2 li{
     margin-right: 20px !important;
   }
-}
+} */
 
-@media screen and (min-width:881px) and (max-width:1023px){
+/* @media screen and (min-width:881px) and (max-width:1023px){
+
+} */
+/* Laptop 1024 */
+/* @media screen and (min-width:1024px) and (max-width:1439px){
+
+} */
+/* Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) {
+  .mainImage{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image{
+    width: 40%;
+    position: absolute;
+    top: 0px;
+    left: 30%;
+  }
+  .image img{
+    height: 100px !important;
+  }
+  .text .fontHeader{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+
+  }
+  .horizontal-line {
+    border-bottom: 5px solid white;
+    width: 80%;
+    margin: auto;
+  }
+  .text .fontSecond{
+    font-size: 1.2rem;
+    text-align: center;
+
+  }
+  .text .fontSecond{
+    width: 99%;
+    position: absolute;
+    font-size: 0.6rem !important;
+    bottom: 12%;
+    left: -75%;
+  }
+  .list{
+    font-size: 0.9rem !important;
+    right: -75% !important;
+  }
+  .list li{
+    margin-bottom: 10px;
+  }
+  .mainImage2{
+    position: relative;
+    left: 50%;
+    bottom: -50%;
+    }
+    .horizontal-line2 {
+      position: relative;
+      border-bottom: 5px solid white;
+      width: 70%;
+      left: -10%;
+      bottom: 0%;
+  }
+  .list2{
+    position: absolute;
+    top: 3%;
+    right: -15%;
+    font-size: 0.8rem;
+
+  }
+  .list2 li{
+    margin-right: 10px !important;
+  }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+/*@media (min-width: 768px) {
+  .mainImage{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image{
+    width: 30%;
+    position: absolute;
+    top: -3px;
+    left: 35%;
+  }
+  .text .fontHeader{
+    font-size: 2rem;
+    /* margin-left: 5rem; */
+    /*font-weight: 800;
+    margin-bottom: 0;
+
+  }
+  .horizontal-line {
+    border-bottom: 8px solid white;
+    width: 80%;
+    margin: auto;
+  }
+  .text .fontSecond{
+    position: absolute;
+    font-size: 0.8rem !important;
+    bottom: 12%;
+    left: -70%;
+  }
+  .list{
+    font-size: 1.2rem;
+    right: -70% !important;
+  }
+  .mainImage2{
+    position: relative;
+    left: 50%;
+    bottom: -30%;
+    }
+    .horizontal-line2 {
+      position: relative;
+      border-bottom: 5px solid white;
+      width: 70%;
+      left: -10%;
+      bottom: 4%;
+  }
+  .list2{
+    position: absolute;
+    top: 0%;
+    right: -15%;
+    font-size: 1.5rem;
+
+  }
+  .list2 li{
+    margin-right: 20px !important;
+  }
+ }
+
+/* Large devices (desktops, 992px and up) */
+/*@media (min-width: 992px) {
   .mainImage{
     position: relative;
     top: 0;
@@ -484,7 +648,7 @@
   .text .fontHeader{
     font-size: 2rem;
     /* margin-left: 5rem; */
-    font-weight: 800;
+    /*font-weight: 800;
     margin-bottom: 0;
 
   }
@@ -525,9 +689,10 @@
   .list2 li{
     margin-right: 20px !important;
   }
-}
-/* Laptop 1024 */
-@media screen and (min-width:1024px) and (max-width:1439px){
+  }
+
+/* Extra large devices (large desktops, 1200px and up) */
+/*@media (min-width: 1200px) {
   .mainImage{
     position: relative;
     top: 0;
@@ -546,7 +711,7 @@
   .text .fontHeader{
     font-size: 3.5rem;
     /* margin-left: 5rem; */
-    font-weight: 800;
+    /*font-weight: 800;
     margin-bottom: 0;
 
   }
@@ -562,7 +727,7 @@
   }
   .list{
     /* font-size: ; */
-    right: -60% !important;
+    /*right: -60% !important;
   }
   .mainImage2{
     position: relative;
@@ -586,90 +751,7 @@
   .list2 li{
     margin-right: 30px !important;
   }
-}
+  } */
 
-/* Laptop L 1440 */
-@media screen and (min-width:1440px) and (max-width:2559px){
-  .mainImage{
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-  .image{
-    width: 30%;
-    position: absolute;
-    top: -100px;
-    left: 35%;
-    z-index: 2;
-  }
 
-  .image img{
-    width: 100%;
-
-  }
-
-  .text .fontHeader{
-    font-size: 5.5rem;
-    /* margin-left: 5rem; */
-    font-weight: 600;
-    margin-bottom: 0;
-
-  }
-  .horizontal-line {
-    border-bottom: 10px solid white;
-    width: 80%;
-    margin: auto;
-  }
-  .text .fontSecond{
-    position: absolute;
-    bottom: 12%;
-    left: -50%;
-  }
-  .mainImage2{
-    position: relative;
-    left: 50%;
-    bottom: -20%;
-    }
-    .horizontal-line2 {
-      position: relative;
-      border-bottom: 5px solid white;
-      width: 80%;
-      left: -10%;
-    bottom: 8%;
-  }
-  .list2{
-    position: absolute;
-    top: 0%;
-    right: -10%;
-    font-size: 2.5rem;
-
-  }
-  .list2 li{
-    margin-right: 20px !important;
-  }
-}
-.box
-{
-position: absolute;
-top: 50%;
-left: 50%;
-width: 100%;
-height: 100%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  transform: translate(-50%,-50%);
-}
-.box .text{
-  position: relative;
-  top: 10%;
-}
-.list{
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  right: -53%;
-  z-index: 10;
-  font-size: 2rem;
-}
 

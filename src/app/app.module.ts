@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { RouterModule } from '@angular/router';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { HomeComponent } from './components/home/home.component';
@@ -42,4 +41,6 @@ import { ProductComponent } from './components/product/product.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+ }
